@@ -12,6 +12,11 @@ To write a program to find the maximum of a list of numbers.
 
 i)	# To find the maximum of marks using the list method sort.
 ```Python
+''' 
+Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by: Sri Karthickeyan Ganapathy
+RegisterNumber: 22008592
+'''
 def max_marks(list1):
     # write your code here
     max1=list1[0]
@@ -24,6 +29,11 @@ max_marks([88, 67, 77, 93, 95, 11, 67, 89, 56, 89])
 
 ii)	# To find the maximum marks using the list method max().
 ```Python
+''' 
+Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by: Sri Karthickeyan Ganapathy
+RegisterNumber: 22008592
+'''
 def max_marks(marks):
 
     max1=marks[0]
@@ -36,6 +46,11 @@ max_marks([88, 67, 77, 93, 95, 11, 67, 89, 56, 89])
 
 iii) # To find the maximum marks without using builtin functions.
 ```Python
+''' 
+Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by: Sri Karthickeyan Ganapathy
+RegisterNumber: 22008592
+'''
 def max_marks(marks):
     marks.sort()
     large=marks[-1]
