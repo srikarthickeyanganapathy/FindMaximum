@@ -17,14 +17,10 @@ Program to sort the elements in the list using the Selection Sort algorithm.
 Developed by: Sri Karthickeyan Ganapathy
 RegisterNumber: 22008592
 '''
-def max_marks(list1):
-    # write your code here
-    max1=list1[0]
-    for i in list1:
-        if i>max1:
-            max1 = i
-    return max1
-max_marks([88, 67, 77, 93, 95, 11, 67, 89, 56, 89])
+def max_marks(marks):
+    marks.sort()
+    large=marks[-1]
+    return large
 ```
 
 ii)	# To find the maximum marks using the list method max().
@@ -35,6 +31,13 @@ Developed by: Sri Karthickeyan Ganapathy
 RegisterNumber: 22008592
 '''
 def max_marks(marks):
+    large=max(marks)
+    return large
+```
+
+iii) # To find the maximum marks without using builtin functions.
+```Python
+def max_marks(marks):
 
     max1=marks[0]
     for i in marks:
@@ -42,19 +45,12 @@ def max_marks(marks):
             max1 = i
     return max1
 max_marks([88, 67, 77, 93, 95, 11, 67, 89, 56, 89])
-```
-
-iii) # To find the maximum marks without using builtin functions.
-```Python
 ''' 
 Program to sort the elements in the list using the Selection Sort algorithm.
 Developed by: Sri Karthickeyan Ganapathy
 RegisterNumber: 22008592
 '''
-def max_marks(marks):
-    marks.sort()
-    large=marks[-1]
-    return large
+
 ```
 ## Sample Input and Output:
 ![output](./img/max_marks1.jpg) 
